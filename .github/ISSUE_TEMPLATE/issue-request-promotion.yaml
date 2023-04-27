@@ -6,4 +6,9 @@ assignees:
   - octocat
 body:
   - type: input
-    id: Artefact Location
+    id: Artefact_Location
+    attributes:
+      label: Contact email
+      description: provide a list of links to the required artefacts
+    validations:
+      required: true
